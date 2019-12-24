@@ -49,13 +49,6 @@ bin
 .settings
 .gitattributes
 
-
-
-
-
-
-
-
-
-
-
+.idea
+.project
+.gitattributes
