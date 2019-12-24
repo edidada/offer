@@ -1,5 +1,3 @@
-package test;
-
 import static org.junit.Assert.fail;
 
 import org.junit.After;
@@ -13,7 +11,7 @@ import code.Node;
 /**
  *@author : gaoweibupt@gmail.com
  *
- * ´´½¨Ê±¼ä£º 2015Äê10ÔÂ20ÈÕÏÂÎç2:34:17
+ * åˆ›å»ºæ—¶é—´ï¼š 2015å¹´10æœˆ20æ—¥ä¸‹åˆ2:34:17
  */
 public class LinkListTest {
 	
@@ -140,7 +138,7 @@ public class LinkListTest {
 
 	@Test
 	public void testListReversePlus() {
-//		fail("Not yet implemented");       //ÓĞÎÊÌâ
+//		fail("Not yet implemented");       //æœ‰é—®é¢˜
 		Node hh = new LinkList().listReversePlus(n1, n2, 0);
 		while(hh != null){
 			System.out.print(hh.data+ ", ");

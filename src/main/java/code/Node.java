@@ -2,7 +2,7 @@ package code;
 /**
  *@author : gaoweibupt@gmail.com
  *
- * ´´½¨Ê±¼ä£º 2015Äê10ÔÂ19ÈÕÉÏÎç10:07:23
+ * åˆ›å»ºæ—¶é—´ï¼š 2015å¹´10æœˆ19æ—¥ä¸Šåˆ10:07:23
  */
 public class Node {
 	
@@ -18,7 +18,7 @@ public class Node {
 		
 	}
 	/**
-	 * ²åÈëµ½Á´±íÎ²²¿
+	 * æ’å…¥åˆ°é“¾è¡¨å°¾éƒ¨
 	 * */
 	public void appendToTail(int data){
 		Node end = new Node(data);
@@ -30,7 +30,7 @@ public class Node {
 	}
 	
 	/**
-	 * ²åÈëµ½Á´±íÍ·²¿
+	 * æ’å…¥åˆ°é“¾è¡¨å¤´éƒ¨
 	 * */
 	public void appendToHead(int data){
 		Node head = new Node(data);
@@ -39,7 +39,7 @@ public class Node {
 	}
 	
 	/**
-	 * ·µ»ØListµÄ³¤¶È
+	 * è¿”å›Listçš„é•¿åº¦
 	 * */
 	public static int getListLength(Node head){
 		int i = 0;
@@ -51,7 +51,7 @@ public class Node {
 		return i;
 	}
 	/**
-	 * ·µ»ØListÖĞµÚk¸ö½Úµã
+	 * è¿”å›Listä¸­ç¬¬kä¸ªèŠ‚ç‚¹
 	 * */
 	public static Node getNode(Node head, int k){
 		Node node = head;

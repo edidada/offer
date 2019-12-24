@@ -1,7 +1,7 @@
 package code;
 /**
  *@author  gaoweibupt@gmail.com	
- * ´´½¨Ê±¼ä£º 2015Äê10ÔÂ15ÈÕÏÂÎç8:17:32
+ * åˆ›å»ºæ—¶é—´ï¼š 2015å¹´10æœˆ15æ—¥ä¸‹åˆ8:17:32
  */
 public class test {
 

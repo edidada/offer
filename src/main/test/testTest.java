@@ -1,12 +1,10 @@
-package test;
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
 /*
  *@author  gaoweibupt@gmail.com	
- * ´´½¨Ê±¼ä£º 2015Äê10ÔÂ16ÈÕÏÂÎç6:52:50
+ * åˆ›å»ºæ—¶é—´ï¼š 2015å¹´10æœˆ16æ—¥ä¸‹åˆ6:52:50
  */
 public class testTest {
 

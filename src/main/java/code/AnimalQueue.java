@@ -4,9 +4,9 @@ import java.util.LinkedList;
 
 /*
  *@author  gaoweibupt@gmail.com	
- * ´´½¨Ê±¼ä£º 2015Äê10ÔÂ27ÈÕÏÂÎç10:08:31
+ * åˆ›å»ºæ—¶é—´ï¼š 2015å¹´10æœˆ27æ—¥ä¸‹åˆ10:08:31
  * 
- * µÚ°ËÕÂÏ°Ìâ 3.7
+ * ç¬¬å…«ç« ä¹ é¢˜ 3.7
  * 
  */
 public class AnimalQueue {

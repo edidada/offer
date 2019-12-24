@@ -1,5 +1,3 @@
-package test;
-
 import static org.junit.Assert.fail;
 
 import org.junit.Assert;
@@ -10,7 +8,7 @@ import code.OperateString;
 /**
  *@author : gaoweibupt@gmail.com
  *
- * ´´½¨Ê±¼ä£º 2015Äê10ÔÂ16ÈÕÏÂÎç4:34:12
+ * åˆ›å»ºæ—¶é—´ï¼š 2015å¹´10æœˆ16æ—¥ä¸‹åˆ4:34:12
  */
 public class OperateStringTest {
 

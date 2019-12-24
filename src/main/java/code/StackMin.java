@@ -5,9 +5,9 @@ import java.util.Stack;
 /**
  *@author : gaoweibupt@gmail.com
  *
- * ����ʱ�䣺 2015��10��26������10:37:23
+ * 创建时间： 2015年10月26日上午10:37:23
  * 
- * Ҳ����ʹ��Stack<Integer, Integer>  ����¼��Сֵ��������������������ܴ�ʱ���Կռ���˵��һ���˷�
+ * 也可以使用Stack<Integer, Integer>  来记录最小值，但是这样如果数据量很大时，对空间来说是一种浪费
  * 
  */
 public class StackMin {
@@ -30,9 +30,9 @@ public class StackMin {
 	}
 	
 	/**
-	 * �ڰ���ϰ��3.3
+	 * 第八章习题3.3
 	 * 
-	 * �����˿���ջΪ�յ����
+	 * 忘记了考虑栈为空的情况
 	 * 
 	 * */
 	public int min(){

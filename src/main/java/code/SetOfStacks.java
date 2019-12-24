@@ -7,9 +7,9 @@ import java.util.Stack;
 /**
  *@author : gaoweibupt@gmail.com
  *
- * ´´½¨Ê±¼ä£º 2015Äê10ÔÂ26ÈÕÉÏÎç10:55:42
+ * åˆ›å»ºæ—¶é—´ï¼š 2015å¹´10æœˆ26æ—¥ä¸Šåˆ10:55:42
  * 
- * ³ÌĞòÔ±ÃæÊÔ½ğµä µÚ°ËÕÂÏ°Ìâ3.3
+ * ç¨‹åºå‘˜é¢è¯•é‡‘å…¸ ç¬¬å…«ç« ä¹ é¢˜3.3
  * 
  */
 public class SetOfStacks {
@@ -17,7 +17,7 @@ public class SetOfStacks {
 	private int length = 10;
 	
 	/**
-	 * ¹¹Ôìº¯Êı
+	 * æ„é€ å‡½æ•°
 	 * */
 	SetOfStacks() {
 		// TODO Auto-generated constructor stub
@@ -27,14 +27,14 @@ public class SetOfStacks {
 	}
 	
 	/**
-	 * ÉèÖÃLength£¬ Ã¿¸öÕ»µÄ³¤¶È
+	 * è®¾ç½®Lengthï¼Œ æ¯ä¸ªæ ˆçš„é•¿åº¦
 	 * */
 	public void setLength(int length){
 		this.length = length;
 	}
 	
 	/**
-	 * popÊı¾İ£¬Èç¹ûµ¯³öÊı¾İºóÕ»µÄ´óĞ¡Îª¿Õ£¬ÔòÏú»Ù´ËÕ»
+	 * popæ•°æ®ï¼Œå¦‚æœå¼¹å‡ºæ•°æ®åæ ˆçš„å¤§å°ä¸ºç©ºï¼Œåˆ™é”€æ¯æ­¤æ ˆ
 	 * */
 	public int pop(){
 		int result = listStack.get(listStack.size() - 1).pop();
@@ -45,7 +45,7 @@ public class SetOfStacks {
 	}
 	
 	/**
-	 * pushÊı¾İ£¬Èç¹û×îºóÒ»¸öÕ»ÂúÁËÔòĞÂ½¨Ò»¸öÕ»
+	 * pushæ•°æ®ï¼Œå¦‚æœæœ€åä¸€ä¸ªæ ˆæ»¡äº†åˆ™æ–°å»ºä¸€ä¸ªæ ˆ
 	 * */
 	public void push(int x){
 		if (listStack.get(listStack.size()-1).size() < length){
@@ -59,8 +59,8 @@ public class SetOfStacks {
 	}
 	
 	/**
-	 * µ¯³öÖ¸¶¨Õ»ÉÏµÄÊı¾İ£¬Ó¦¸ÃÓÃÏÂÒ»¸öÕ»¼ÌĞøÌîÂú±¾Õ»
-	 * ¸öÈËÏë·¨²»ÓÃ½«ÏÂÒ»¸öÕ»µÄÊı¾İÍÆÈë£¬²åÈë²Ù×÷ÈÔÈ»·¢ÉúÔÚÏÂÒ»¸öÕ»
+	 * å¼¹å‡ºæŒ‡å®šæ ˆä¸Šçš„æ•°æ®ï¼Œåº”è¯¥ç”¨ä¸‹ä¸€ä¸ªæ ˆç»§ç»­å¡«æ»¡æœ¬æ ˆ
+	 * ä¸ªäººæƒ³æ³•ä¸ç”¨å°†ä¸‹ä¸€ä¸ªæ ˆçš„æ•°æ®æ¨å…¥ï¼Œæ’å…¥æ“ä½œä»ç„¶å‘ç”Ÿåœ¨ä¸‹ä¸€ä¸ªæ ˆ
 	 * */
 	public int popAt(int index){
 		int result =  listStack.get(index).pop();

@@ -5,18 +5,18 @@ import java.util.HashMap;
 /**
  *@author : gaoweibupt@gmail.com
  *
- * ´´½¨Ê±¼ä£º 2015Äê10ÔÂ16ÈÕÏÂÎç4:16:08
+ * åˆ›å»ºæ—¶é—´ï¼š 2015å¹´10æœˆ16æ—¥ä¸‹åˆ4:16:08
  */
 public class OperateString {
 	
 	/**
-	 * µÚ°ËÕÂ  Ï°Ìâ1.1
-	 * <p> È·¶¨Ò»¸ö×Ö·û´®µÄËùÓĞ×Ö·ûÈ«¶¼²»Í¬<br>
-	 * Ê¹ÓÃHashMapÊı¾İ½á¹¹
-	 * @param String s ÊäÈë×Ö·û´®
-	 * @return true ÎªÈ«²¿Í¬£¬falseÎªÓĞÏàÍ¬µÄ×Ö·û
+	 * ç¬¬å…«ç«   ä¹ é¢˜1.1
+	 * <p> ç¡®å®šä¸€ä¸ªå­—ç¬¦ä¸²çš„æ‰€æœ‰å­—ç¬¦å…¨éƒ½ä¸åŒ<br>
+	 * ä½¿ç”¨HashMapæ•°æ®ç»“æ„
+	 * @param String s è¾“å…¥å­—ç¬¦ä¸²
+	 * @return true ä¸ºå…¨éƒ¨åŒï¼Œfalseä¸ºæœ‰ç›¸åŒçš„å­—ç¬¦
 	 * 
-	 * ¸Ä½ø£ºÈç¹ûString ÊÇASCII×Ö·û´®£¬s.length()>256 ¾Í¿ÉÒÔ·µ»Øfalse
+	 * æ”¹è¿›ï¼šå¦‚æœString æ˜¯ASCIIå­—ç¬¦ä¸²ï¼Œs.length()>256 å°±å¯ä»¥è¿”å›false
 	 * */
 	public static boolean isDifferentChar(String s){
 		if (s == null || s.equals("")){
@@ -37,11 +37,11 @@ public class OperateString {
 	
 	
 	/**
-	 * µÚ°ËÕÂ  Ï°Ìâ1.1
-	 * <p> È·¶¨Ò»¸ö×Ö·û´®µÄËùÓĞ×Ö·ûÈ«¶¼²»Í¬<br>
-	 * ²»ÊÊÓÃ¶îÍâµÄÊı¾İ½á¹¹
-	 * @param String s ÊäÈë×Ö·û´®
-	 * @return true ÎªÈ«²¿Í¬£¬falseÎªÓĞÏàÍ¬µÄ×Ö·û
+	 * ç¬¬å…«ç«   ä¹ é¢˜1.1
+	 * <p> ç¡®å®šä¸€ä¸ªå­—ç¬¦ä¸²çš„æ‰€æœ‰å­—ç¬¦å…¨éƒ½ä¸åŒ<br>
+	 * ä¸é€‚ç”¨é¢å¤–çš„æ•°æ®ç»“æ„
+	 * @param String s è¾“å…¥å­—ç¬¦ä¸²
+	 * @return true ä¸ºå…¨éƒ¨åŒï¼Œfalseä¸ºæœ‰ç›¸åŒçš„å­—ç¬¦
 	 * */
 	public static boolean isDifferentChar2(String s){
 		if (s == null || s.equals("")){
@@ -58,10 +58,10 @@ public class OperateString {
 	}
 	
 	/**
-	 * µÚ°ËÕÂ  Ï°Ìâ1.3
-	 * <p> ¸ø¶¨Á½¸ö×Ö·û´®£¬ÅĞ¶Ï¾­¹ıÖØÅÅÄÜ·ñÏàµÈ<br>
-	 * @param s1 ÊäÈë×Ö·û´®1£¬ s2 ÊäÈë×Ö·û´®2
-	 * @return true Îª¿ÉÒÔ£¬falseÎª²»¿ÉÒÔ
+	 * ç¬¬å…«ç«   ä¹ é¢˜1.3
+	 * <p> ç»™å®šä¸¤ä¸ªå­—ç¬¦ä¸²ï¼Œåˆ¤æ–­ç»è¿‡é‡æ’èƒ½å¦ç›¸ç­‰<br>
+	 * @param s1 è¾“å…¥å­—ç¬¦ä¸²1ï¼Œ s2 è¾“å…¥å­—ç¬¦ä¸²2
+	 * @return true ä¸ºå¯ä»¥ï¼Œfalseä¸ºä¸å¯ä»¥
 	 * */
 	public static boolean isResetEqual(String s1, String s2){
 		if (s1.length() != s2.length()){
@@ -81,10 +81,10 @@ public class OperateString {
 	}
 	
 	/**
-	 * µÚ°ËÕÂ  Ï°Ìâ1.4
-	 * <p> ½«×Ö·û´®ÖĞµÄ¿Õ¸ñÌæ»»³É%20<br>
-	 * @param String s ÒªÌæ»»µÄ×Ö·û´®
-	 * @return String result Ìæ»»ºóµÄ×Ö·û´®
+	 * ç¬¬å…«ç«   ä¹ é¢˜1.4
+	 * <p> å°†å­—ç¬¦ä¸²ä¸­çš„ç©ºæ ¼æ›¿æ¢æˆ%20<br>
+	 * @param String s è¦æ›¿æ¢çš„å­—ç¬¦ä¸²
+	 * @return String result æ›¿æ¢åçš„å­—ç¬¦ä¸²
 	 * */
 	public static String spaceReplace(String s){
 		StringBuffer stringBuffer = new StringBuffer();
@@ -99,10 +99,10 @@ public class OperateString {
 	}
 	
 	/**
-	 * µÚ°ËÕÂ  Ï°Ìâ1.5
-	 * <p> ÊµÏÖ»ù±¾µÄ×Ö·û´®Ñ¹Ëõ<br>
-	 * @param String s ÒªÑ¹ËõµÄ×Ö·û´®
-	 * @return String result Ñ¹ËõºóµÄ×Ö·û´®
+	 * ç¬¬å…«ç«   ä¹ é¢˜1.5
+	 * <p> å®ç°åŸºæœ¬çš„å­—ç¬¦ä¸²å‹ç¼©<br>
+	 * @param String s è¦å‹ç¼©çš„å­—ç¬¦ä¸²
+	 * @return String result å‹ç¼©åçš„å­—ç¬¦ä¸²
 	 * */
 	public static String stringCompress(String s){
 		StringBuffer stringBuffer = new StringBuffer();
@@ -129,10 +129,10 @@ public class OperateString {
 	}
 	
 	/**
-	 * µÚ°ËÕÂ  Ï°Ìâ1.6
-	 * <p> ½«N*N¾ØÕóÊı×é±íÊ¾µÄÍ¼ÏñĞı×ª90¶È<br>
-	 * @param int[][]  imageÒª²Ù×÷µÄ¾ØÕóÍ¼Ïñ, int n ±íÊ¾¾ØÕóµÄÎ¬¶ÈN*N
-	 * @return int[][] result Ğı×ªºóµÄ¾ØÕóÍ¼ÏñÊı×é
+	 * ç¬¬å…«ç«   ä¹ é¢˜1.6
+	 * <p> å°†N*NçŸ©é˜µæ•°ç»„è¡¨ç¤ºçš„å›¾åƒæ—‹è½¬90åº¦<br>
+	 * @param int[][]  imageè¦æ“ä½œçš„çŸ©é˜µå›¾åƒ, int n è¡¨ç¤ºçŸ©é˜µçš„ç»´åº¦N*N
+	 * @return int[][] result æ—‹è½¬åçš„çŸ©é˜µå›¾åƒæ•°ç»„
 	 * */
 	public static int[][] iamgeRotate(int[][] image, int n){
 		if (n == 1)return image;
@@ -150,10 +150,10 @@ public class OperateString {
 	}
 	
 	/**
-	 * µÚ°ËÕÂ  Ï°Ìâ1.7
-	 * <p> Çå¿ÕÔªËØÎª0 Ê±£¬ÆäËùÔÚµÄĞĞÁĞ<br>
-	 * @param int[][]  arr ÊäÈëµÄm*nÊı×é
-	 * @return int[][] result ·µ»ØµÄÊı×é
+	 * ç¬¬å…«ç«   ä¹ é¢˜1.7
+	 * <p> æ¸…ç©ºå…ƒç´ ä¸º0 æ—¶ï¼Œå…¶æ‰€åœ¨çš„è¡Œåˆ—<br>
+	 * @param int[][]  arr è¾“å…¥çš„m*næ•°ç»„
+	 * @return int[][] result è¿”å›çš„æ•°ç»„
 	 * */
 	public static int[][] arrayEmpty(int[][] arr){
 		boolean[] row = new boolean[arr.length];
@@ -177,10 +177,10 @@ public class OperateString {
 	}
 	
 	/**
-	 * µÚ°ËÕÂ  Ï°Ìâ1.8
-	 * <p> ¼ì²é×Ö·û´®1ÊÇ·ñÎª×Ö·û´®2Ğı×ª¶ø³É<br>
-	 * @param String s1 Îª×Ö·û´®1, String s2×Ö·û´®2
-	 * @return Boolean resultÎªtrueÊ±ÕıÈ·£¬ÎªfalseÊ±´íÎó
+	 * ç¬¬å…«ç«   ä¹ é¢˜1.8
+	 * <p> æ£€æŸ¥å­—ç¬¦ä¸²1æ˜¯å¦ä¸ºå­—ç¬¦ä¸²2æ—‹è½¬è€Œæˆ<br>
+	 * @param String s1 ä¸ºå­—ç¬¦ä¸²1, String s2å­—ç¬¦ä¸²2
+	 * @return Boolean resultä¸ºtrueæ—¶æ­£ç¡®ï¼Œä¸ºfalseæ—¶é”™è¯¯
 	 * */
 	public static boolean isRotateString(String s1, String s2){
 		if (s1.length() == s2.length()){
